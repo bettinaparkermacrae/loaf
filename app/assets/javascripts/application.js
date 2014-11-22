@@ -12,5 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
+//= require jquery-ui/accordion
 //= require turbolinks
 //= require_tree .
+$(document).ready(function(){
+      $( "#accordion" ).accordion();
+});
